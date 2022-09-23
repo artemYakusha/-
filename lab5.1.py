@@ -7,7 +7,7 @@ def f2():
     rez = 0.64 * bar ** (bar+1)
     return rez
 def f3():
-    rez = m.log(bar) * m.fabs(bar - m.e ** bar)
+    rez = m.log(bar, m.e) * m.fabs(bar - m.e ** bar)
     return rez
 y = 0.0
 if bar > 7:
