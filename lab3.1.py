@@ -1,0 +1,10 @@
+import sys
+bar = input('задайте перше двоцифрове число ')
+bar1 = input('задайте друге двоцифрове число ')
+bar2 = input('задайте третє двоцифрове число ')
+foo = int(bar) + int(bar1) + int(bar2)
+sys.stdout.write('сума = ')
+sys.stdout.write(str(foo))
+foo1 = int(bar) * int(bar1) * int(bar2)
+sys.stdout.write(' добуток = ')
+sys.stdout.write(str(foo1))
