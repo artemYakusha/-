@@ -16,4 +16,4 @@ elif 0.5 < bar <= 7:
     y = f2()
 else:
     y = f3()
-print(int(y))
+print(y)
