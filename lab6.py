@@ -1,8 +1,8 @@
 #6.1
 import math as m
-a = int(input('Введіть нижню границю: '))
-b = int(input('Введіть верхню границю: '))
-h = int(input('Введіть значення кроку: '))
+a = float(input('Введіть нижню границю: '))
+b = float(input('Введіть верхню границю: '))
+h = float(input('Введіть значення кроку: '))
 
 for Bar in range(a, b, h):
     foo = m.fabs(m.tan(m.fabs(a)+0.1))
